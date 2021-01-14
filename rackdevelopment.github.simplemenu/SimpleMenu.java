@@ -1,4 +1,4 @@
-package co.alphamc.saber.spigot.utils.menu;
+package rackdevelopment.github.simplemenu;
 
 import net.md_5.bungee.api.ChatColor;
 import org.apache.commons.lang.StringUtils;
