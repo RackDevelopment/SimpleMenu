@@ -1,7 +1,7 @@
 # SimpleMenu
 This has yet to be tested! Welcome to SimpleMenu, a very simple GUI System for Spigot plugins.
 
-# Need an example on how to use? Checkout the example package to see an example GUI.
+## Need an example on how to use? Checkout the example package to see an example GUI.
 
 # TODO:
 1. Test everything.
