@@ -1,4 +1,4 @@
-package co.alphamc.saber.spigot.utils.menu;
+package rackdevelopment.github.simplemenu;
 
 import org.bukkit.event.inventory.InventoryClickEvent;
 
