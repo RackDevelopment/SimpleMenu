@@ -26,7 +26,7 @@ public class SimpleMenu implements InventoryHolder {
     public SimpleMenu(String name, String[] layout) {
         this.name = ChatColor.translateAlternateColorCodes('&', name);
         this.layout = StringUtils.join(layout);
-        this.inventory = Bukkit.createInventory(this, this.layout.toCharArray().length / 9, ChatColor.translateAlternateColorCodes('&', name));
+        this.inventory = Bukkit.createInventory(this, this.layout.toCharArray().length + 1, ChatColor.translateAlternateColorCodes('&', name));
     }
 
     public void addItem(MenuItem item) {
