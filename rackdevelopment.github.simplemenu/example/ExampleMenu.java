@@ -1,4 +1,4 @@
-package co.alphamc.saber.spigot.utils.menu.example;
+package rackdevelopment.github.simplemenu.example;
 
 import co.alphamc.saber.spigot.utils.ItemBuilder;
 import co.alphamc.saber.spigot.utils.menu.MenuItem;
