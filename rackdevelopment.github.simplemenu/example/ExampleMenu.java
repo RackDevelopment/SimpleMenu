@@ -1,8 +1,8 @@
 package rackdevelopment.github.simplemenu.example;
 
-import co.alphamc.saber.spigot.utils.ItemBuilder;
-import co.alphamc.saber.spigot.utils.menu.MenuItem;
-import co.alphamc.saber.spigot.utils.menu.SimpleMenu;
+import co.alphamc.saber.spigot.utils.ItemBuilder; // Please note the ItemBuilder is not included in these files.
+import rackdevelopment.github.simplemenu.MenuItem;
+import rackdevelopment.github.simplemenu.SimpleMenu;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 
