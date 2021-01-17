@@ -8,13 +8,13 @@ import org.bukkit.entity.Player;
 
 public class ExampleMenu {
 
-    public void openInventory(Player player) {
-        SimpleMenu menu = new SimpleMenu("&a&lExample Menu", new String[]{"aaabbbccc", "aaabbbccc", "aaabbbccc"});
-        MenuItem itemA = new MenuItem('c', ItemBuilder.start(Material.WOOL).data((short) 14).build());
+    public static void openInventory(Player player) {
+        SimpleMenu menu = new SimpleMenu("&a&lExample Menu", new String[]{"aaabbbccc", "aaabbbccc", "aaabbbccc"}, 3, false);
+        MenuItem itemA = new MenuItem('a', ItemBuilder.start(Material.WOOL).data((short) 6).build());
         itemA.setListener((event) -> {
             event.setCancelled(true);
         });
-        MenuItem itemB = new MenuItem('c', ItemBuilder.start(Material.WOOL).data((short) 14).build());
+        MenuItem itemB = new MenuItem('b', ItemBuilder.start(Material.WOOL).build());
         itemB.setListener((event) -> {
             event.setCancelled(true);
         });
