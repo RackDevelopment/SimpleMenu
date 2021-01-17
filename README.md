@@ -5,3 +5,5 @@ Welcome to SimpleMenu, a very simple GUI System for Spigot plugins.
 
 # TODO:
 1. Add support for ' ' space characters in the creation that will put blank lines.
+2. Create JavaDocs
+3. Finish pagination
